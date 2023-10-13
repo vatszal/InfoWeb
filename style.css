@@ -6,20 +6,20 @@
 
 .header{
     height: 20vh;
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-i{
+.header i{
     font-size: 2rem;
-    /* margin-right: 1rem; */
-    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .logo img{
-    height: 30vh;
+    height: 20vh;
     width: 15vw;
     background-size: cover;
 }
@@ -46,12 +46,12 @@ i{
 .about a{
     font-size: 1.6rem;
     font-weight: 600;
-    padding: 40px;
+    padding: 30px;
     text-decoration: none;
     color: #000;
 }
 
-a:hover{
+.header a:hover{
     transition: 300ms ease-in-out;
     font-size: 1.61rem;
 }
@@ -59,7 +59,7 @@ a:hover{
 
 
 .about i{
-     font-weight: 800;
+    /* margin; */
 }
 
 /* Main box css */
@@ -71,12 +71,10 @@ a:hover{
     text-align: center;
     background-image: url(Clouds\(373X1366\).png);
     background-size: cover;
-    width: 100vw;
     height: 50vh;
 }
 
 .bca{
-    /* margin: 100px; */
     font-size: 3rem;
     font-weight: 800;
 }
@@ -91,41 +89,97 @@ a:hover{
     justify-content: space-around;
     align-items: center;
     height: 30vh;
-    /* width: 100vw; */
     font-weight: 800;
     font-size: 30px;
 }
 
-.box{
-    display: flex;
-    flex-direction: column;
-    /* height: 100vh; */
-    /* width: 100vw; */
-    background-color: aqua;
-}
-
 .box1{
-    height: 20vh;
+    margin: 0;
+    height: 30vh;
     background-color: #0A6DA6;
 }
 
 .box2{
-    height: 20vh;
-    background-color: #FFD230
+    margin: 0;
+    height: 30vh;
+    background-color: #FFD230;
 }
 
 .box3{
-    height: 20vh;
-    background-color: bisque;
-}
-
-.box4{
-    height: 20vh;
+    margin: 0;
+    height: 30vh;
     background-color: #75D481;
 }
 
-.box5{
-    height: 20vh;
+.box4{
+    margin: 0;
+    height: 30vh;
     background-color: #6D123F;
 }
 
+.box5{
+    margin: 0;
+    height: 30vh;
+    background-color: #5740B6;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    background-color: #1C2120;
+}
+
+.footer_logo{
+    height: 15vh;
+    width: 10vw;
+}
+
+.fdiv_1 a{
+    margin: 10px;
+    color: #fff;
+    margin-left: 40px;
+    display: flex;
+    text-decoration: none;
+
+}
+
+.fdiv_2 p , .fdiv_3 p{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.fdiv_2 a , .fdiv_3 a{
+   margin-top: 10px;
+   display: flex;
+   text-decoration: none;
+   color: #fff;
+}
+
+.box h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+.box1 , .box2 , .box3 , .box4 , .box5{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer a:hover{
+    font-size: 15px;
+   transition: 250ms ease-in-out;
+}
+
+.footer i{
+    margin-left: 10px;
+}
