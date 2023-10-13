@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i{
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.logo img{
+    height: 20vh;
+    width: 15vw;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+.about{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.about a{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    transition: 300ms ease-in-out;
+    font-size: 1.61rem;
+}
+
+
+
+.about i{
+     font-weight: 800;
+}
+
+/* Main box css */
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(Clouds\(373X1366\).png);
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+.bca{
+    /* margin: 100px; */
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.p{
+    font-size: 2rem;
+    color: #fff;
+}
