@@ -125,7 +125,7 @@ body{
     background-color: #5740B6;
 }
 
-.footer{
+footer{
     display: flex;
     justify-content: space-around;
     height: 32vh;
@@ -177,11 +177,11 @@ body{
     color: #fff;
 }
 
-.footer a:hover{
+footer a:hover{
     font-size: 15px;
    transition: 250ms ease-in-out;
 }
 
-.footer i{
+footer i{
     margin-left: 10px;
 }
