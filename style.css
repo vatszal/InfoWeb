@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-body{
+body {
     font-family: 'Gabarito', sans-serif;
 }
 
-.header{
+.header {
+    background-color: #d3d3d378;
     height: 20vh;
     /* width: 100vw; */
     display: flex;
@@ -19,24 +20,24 @@ body{
     align-items: center;
 }
 
-.header i{
+.header i {
     font-size: 2rem;
     margin-right: 2rem;
     margin-left: 2rem;
 }
 
-.logo img{
+.logo img {
     height: 20vh;
     width: 15vw;
     background-size: cover;
 }
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
 }
 
-.nav a{
+.nav a {
     font-size: 30px;
     font-weight: 600;
     padding: 40px;
@@ -44,13 +45,13 @@ body{
     color: #000;
 }
 
-.about{
+.about {
     display: flex;
     justify-content: start;
     align-items: center;
 }
 
-.about a{
+.about a {
     font-size: 1.6rem;
     font-weight: 600;
     padding: 30px;
@@ -58,44 +59,52 @@ body{
     color: #000;
 }
 
-.header a:hover{
+.header a:hover {
     transition: 300ms ease-in-out;
     font-size: 1.61rem;
 }
 
+.colormode{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+}
 
 /* Main box css */
 
-.main{
+.main {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(Clouds\(373X1366\).png);
+    background-image: url(Clouds.png);
     background-size: cover;
     height: 50vh;
 }
 
-.gif{
-   position: relative;
-   top: 100px;
-   right: 200px;
-    height: 15vh;
-    width: 10vw;
+.gif {
+    position: absolute;
+    top: 19%;
+    right: 0%;
+    width: 160px;
+    height: 160px;
 }
 
-background-image: url(icegif-843.gif);
-.bca{
+.bca {
+    
     font-size: 3rem;
     font-weight: 800;
 }
 
-.p{
+.p {
+    
     font-size: 2rem;
     color: #fff;
 }
 
-.low{
+.low {
+    background-color: #d3d3d378;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -104,49 +113,44 @@ background-image: url(icegif-843.gif);
     font-size: 30px;
 }
 
-.box1{
+.box1, .box2, .box3, .box4, .box5{
     margin: 0;
     height: 30vh;
+}
+
+.box1 {
     background-color: #0A6DA6;
 }
 
-.box2{
-    margin: 0;
-    height: 30vh;
+.box2 {
     background-color: #FFD230;
 }
 
-.box3{
-    margin: 0;
-    height: 30vh;
+.box3 {
     background-color: #75D481;
 }
 
-.box4{
-    margin: 0;
-    height: 30vh;
+.box4 {
     background-color: #6D123F;
 }
 
-.box5{
-    margin: 0;
-    height: 30vh;
+.box5 {
     background-color: #5740B6;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     height: 32vh;
     background-color: #1C2120;
 }
 
-.footer_logo{
+.footer_logo {
     height: 15vh;
     width: 10vw;
 }
 
-.fdiv_1 a{
+.fdiv_1 a {
     margin: 10px;
     color: #fff;
     margin-left: 40px;
@@ -155,42 +159,48 @@ footer{
 
 }
 
-.fdiv_2 p , .fdiv_3 p{
+.fdiv_2 p,
+.fdiv_3 p {
     margin-top: 40px;
     font-size: 20px;
     color: #fff;
 }
 
-.fdiv_2 a , .fdiv_3 a{
-   margin-top: 10px;
-   display: flex;
-   text-decoration: none;
-   color: #fff;
+.fdiv_2 a,
+.fdiv_3 a {
+    margin-top: 10px;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
 }
 
-.box h1{
+.box h1 {
     color: #fff;
     font-size: 100px;
 }
 
-.box1 , .box2 , .box3 , .box4 , .box5{
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
 
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.box p{
+.box p {
     font-weight: 600;
     font-size: 20px;
     color: #fff;
 }
 
-footer a:hover{
+footer a:hover {
     font-size: 15px;
-   transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
 }
 
-footer i{
+footer i {
     margin-left: 10px;
 }
