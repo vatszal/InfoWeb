@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Gabarito', sans-serif;
 }
 
 .header{
@@ -121,7 +128,7 @@
 .footer{
     display: flex;
     justify-content: space-around;
-    height: 30vh;
+    height: 32vh;
     background-color: #1C2120;
 }
 
