@@ -76,6 +76,15 @@ body{
     height: 50vh;
 }
 
+.gif{
+   position: relative;
+   top: 100px;
+   right: 200px;
+    height: 15vh;
+    width: 10vw;
+}
+
+background-image: url(icegif-843.gif);
 .bca{
     font-size: 3rem;
     font-weight: 800;
