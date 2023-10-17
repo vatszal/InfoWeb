@@ -230,20 +230,50 @@ footer i {
     /* flex-direction: row; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     /* margin: 20px; */
     height: 30vh;
     width: 40vw;
-    background-color: #0e3c57;
+    background-color: #38b6ff;
 }
-
 .img_about img{
-    margin-left: 20px;
+    /* margin-left: 20px; */
     height: 150px;
     width: 150px;
     border-radius: 50%;
+    border: 5px solid black;
 }
 
 
+.p_about{
+    margin-bottom: 50px;
+    margin-right: 150px;
+    /* text-align: center; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    font-size: 30px;
+    flex-direction: column;
+    
+}
 
+.p_about span{
+    font-size: 20px;
+}
 
+.p_about a{
+
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.p_about i{
+    padding: 0px 5px 0px 5px;
+   
+}
+
+.icon{
+    display: flex;
+    
+}
