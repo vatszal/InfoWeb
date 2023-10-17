@@ -204,3 +204,46 @@ footer a:hover {
 footer i {
     margin-left: 10px;
 }
+
+/* About style sheet */
+
+.about_us{
+    height: 20vh;
+    background-color: #0A6DA6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.main_about{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.box_about1,.box_about2,.box_about3,.box_about4,.box_about5{
+    /* flex-direction: row; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px; */
+    height: 30vh;
+    width: 40vw;
+    background-color: #0e3c57;
+}
+
+.img_about img{
+    margin-left: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+
+
