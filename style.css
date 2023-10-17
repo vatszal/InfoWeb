@@ -78,7 +78,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(Clouds.png);
+    background-image: url(clouds.png);
     background-size: cover;
     height: 50vh;
 }
