@@ -7,12 +7,44 @@
 
 }
 
+:root {
+    --header:#d3d3d378;
+    --text: #000;
+    --box1: #0A6DA6;
+    --box2: #FFD230;
+    --box3: #75D481;
+    --box4: #6D123F;
+    --box5: #5740B6;
+    --boxcolor:#fff;
+    --iconcolor: #000;
+    --sub_bg:#D3D3D378;
+    --indexbg:#D3D3D3;
+    --subtext:#000;
+}
+
+/* Dark Mode */
+
+.darkmode {
+    --header: #1C2120;
+    --text: #d3d3d3;
+    --box1: #042C42;
+    --box2: #D7A800;
+    --box3: #2e943c;
+    --box4: #5b1035;
+    --box5: #3b2c79;
+    --boxcolor:#D3D3D3;
+    --iconcolor: #d3d3d378;
+    --sub_bg:#333b3a;
+    --indexbg:#e7e5e5;
+    --subtext: #000;
+}
+
 body {
     font-family: 'Gabarito', sans-serif;
 }
 
 .header {
-    background-color: #d3d3d378;
+    background-color: var(--header);
     height: 20vh;
     display: flex;
     justify-content: space-between;
@@ -41,7 +73,7 @@ body {
     font-weight: 600;
     padding: 40px;
     text-decoration: none;
-    color: #000;
+    color: var(--text);
 }
 
 .about {
@@ -55,7 +87,7 @@ body {
     font-weight: 600;
     padding: 1.875rem;
     text-decoration: none;
-    color: #000;
+    color: var(--text);
 }
 
 .header a:hover {
@@ -68,6 +100,10 @@ body {
     text-decoration: none;
     background-color: transparent;
     border: 0;
+}
+
+.icon {
+    color: var(--iconcolor);
 }
 
 /* Main box css */
@@ -103,13 +139,14 @@ body {
 }
 
 .low {
-    background-color: #d3d3d378;
+    background-color: var(--header);
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 30vh;
     font-weight: 800;
     font-size: 30px;
+    color: var(--text);
 }
 
 .box1,
@@ -119,26 +156,41 @@ body {
 .box5 {
     margin: 0;
     height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box h1 {
+    font-size: 100px;
+    color: var(--boxcolor);
+}
+
+
+.box p {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--boxcolor);
 }
 
 .box1 {
-    background-color: #0A6DA6;
+    background-color: var(--box1);
 }
 
 .box2 {
-    background-color: #FFD230;
+    background-color: var(--box2);
 }
 
 .box3 {
-    background-color: #75D481;
+    background-color: var(--box3);
 }
 
 .box4 {
-    background-color: #6D123F;
+    background-color: var(--box4);
 }
 
 .box5 {
-    background-color: #5740B6;
+    background-color: var(--box5);
 }
 
 footer {
@@ -174,28 +226,6 @@ footer {
     margin-top: 10px;
     display: flex;
     text-decoration: none;
-    color: #fff;
-}
-
-.box h1 {
-    color: #fff;
-    font-size: 100px;
-}
-
-.box1,
-.box2,
-.box3,
-.box4,
-.box5 {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.box p {
-    font-weight: 600;
-    font-size: 20px;
     color: #fff;
 }
 
@@ -289,62 +319,46 @@ footer i {
 
 }
 
-
-/* SUBJECT PAGES */
-
-.sub_box {
-    display: flex;
-
-}
-
-
-
-.card_box {
-    width: 82%;
-    height: 100vh;
-    background-color: #5740B6;
-}
-
-
 /* Subject css */
 
 main {
-    background-color: #F2EFEB;
+    background-color:var(--sub_bg) ;
     display: flex;
 
 }
 
 .index {
     width: 30vw;
-    background-color: #fff;
+    background-color: var(--indexbg);
     text-align: center;
+    color: var(--subtext);
 }
 
-.index li{
+.index li {
     font-size: 15px;
 }
 
 
 
-.main_subject{
+.main_subject {
     padding: 0px 40px;
     height: 130vh;
     width: 80vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    align-content:space-evenly;
+    align-content: space-evenly;
     flex-wrap: wrap;
 
 }
 
-.card h2{
+.card h2 {
     margin-bottom: 20px;
 }
 
 .card {
     margin: 10px;
-    height: 60vh;
+    height: 50vh;
     width: 20vw;
     background-color: #38b6ff;
     display: flex;
@@ -353,23 +367,24 @@ main {
     justify-content: space-between;
 }
 
-.card_image{
+.card_image {
     background-size: cover;
     height: 25vh;
     width: 20vw;
     background-color: #1C2120;
 }
 
-.card_image img{
+.card_image img {
     background-size: cover;
-    
+
 }
+
 .card_content {
     padding: 10px;
     text-align: center;
 }
 
-.card a{
+.card a {
     text-decoration: none;
     color: #fff;
 }
@@ -377,7 +392,7 @@ main {
 .card button {
     border: none;
     color: white;
-    background-color:#00456D;
+    background-color: #00456D;
     margin-bottom: 20px;
     font-size: 20px;
     width: 15vw;
@@ -406,10 +421,4 @@ main {
 .index li {
     padding: 1vh;
     font-size: 20px;
-}
-
-/* Dark Mode */
-
-.darkmode{
-    background-color: #000;
 }
