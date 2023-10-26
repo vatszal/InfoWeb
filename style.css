@@ -404,3 +404,20 @@ main {
     padding: 1vh;
     font-size: 20px;
 }
+
+.practice_set button{
+    background-color: #00456D;
+    color: #fff;
+    height: 10vh;
+    width: 50vw;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+ hr {
+    padding: 10px;
+    border: 2px  green;
+    border-radius: 5px;
+  }
