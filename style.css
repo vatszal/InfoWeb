@@ -340,8 +340,8 @@ main {
 
 .card {
     margin: 10px;
-    height: 50vh;
-    width: 20vw;
+    height: 30rem;
+    width: 21rem;
     background-color: #38b6ff;
     display: flex;
     flex-direction: column;
