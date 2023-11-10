@@ -82,6 +82,10 @@ body {
     align-items: center;
 }
 
+.main_about{
+    background-color: var(--sub_bg);
+}
+
 .about a {
     font-size: 1.6rem;
     font-weight: 600;
