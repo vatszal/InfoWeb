@@ -250,6 +250,7 @@ footer i {
 .box_about3,
 .box_about4,
 .box_about5 {
+    margin: 30px , 0px , 30px , 0px;
     flex-direction: row;
     display: flex;
     align-items: center;
@@ -263,6 +264,7 @@ footer i {
 
 
 .img_about img {
+    background-position: center;
     height: 150px;
     width: 150px;
     border-radius: 50%;
