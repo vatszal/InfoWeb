@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", function () {
         icon.classList.add("ri-sun-line");
         icon.classList.remove("ri-contrast-2-fill");
         if (headericon) {
-            headericon.src = "img/logo black.png";
+            headericon.src = "assets/logo black.png";
         }
         if (decorative) {
-            decorative.src = 'img/sunset.png';
+            decorative.src = 'assets/sunset.png';
         }
         if (cloud) {
-            cloud.style.backgroundImage = "url('img/sunset2.jpg')";
+            cloud.style.backgroundImage = "url('assets/sunset2.jpg')";
         }
     }
 
@@ -49,13 +49,13 @@ document.addEventListener("DOMContentLoaded", function () {
         icon.classList.add("ri-contrast-2-fill");
         icon.classList.remove("ri-sun-line");
         if (headericon) {
-            headericon.src = "img/logo white.png";
+            headericon.src = "assets/logo white.png";
         }
         if (decorative) {
-            decorative.src = "img/sun.gif";
+            decorative.src = "assets/sun.gif";
         }
         if (cloud) {
-            cloud.style.backgroundImage = "url('img/clouds.png')";
+            cloud.style.backgroundImage = "url('assets/clouds.png')";
         }
     }
 
